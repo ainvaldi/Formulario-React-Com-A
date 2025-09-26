@@ -9,6 +9,7 @@ const Home = () =>{
         <Fragment>
             <h2>Mi Home</h2>
             <Button onClick={() => navigate('/tarjeta')} label='Ir al formulario' ></Button>
+            <Button onClick={() => navigate('/personas')} label='Ver total de personas' ></Button>
         </Fragment>
     )
 }
